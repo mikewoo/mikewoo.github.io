@@ -456,7 +456,7 @@
 <hr>
 <h1 id="Reactor模型"><a href="#Reactor模型" class="headerlink" title="Reactor模型"></a>Reactor模型</h1><p>Reactor设计模式是Event-Driven Drchitecture的一种实现方式，用以处理多个客户端并发的向服务端请求服务的场景。</p>
 <h2 id="何为Reactor线程模型"><a href="#何为Reactor线程模型" class="headerlink" title="何为Reactor线程模型"></a>何为Reactor线程模型</h2><p>Reactor模式是事件驱动的，有一个或多个并发输入源，有一个Service Handler，有多个Request Handlers；这个Service Handler会同步的将输入的请求（Event）多路复用的分发给相应的Request Handler。</p>
-<p><img src="images/20180911/reactor.png" alt="Reactor线程模型"></p>
+<p><img src="/images/20180911/reactor.png" alt="Reactor线程模型"></p>
 <p>从结构上，这有点类似生产者消费者模式，即有一个或多个生产者将事件放入一个Queue中，而一个或多个消费者主动的从这个Queue中Poll事件来处理；而Reactor模式则并没有Queue来做缓冲，每当一个Event输入到Service Handler之后，该Service Handler会立刻的根据不同的Event类型将其分发给对应的Request Handler来处理。</p>
 
           
