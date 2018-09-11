@@ -93,7 +93,7 @@
 <meta property="og:image" content="http://www.mikewoo.top/images/20180911/reactor_1.png">
 <meta property="og:image" content="http://www.mikewoo.top/images/20180911/reactor_2.png">
 <meta property="og:image" content="http://www.mikewoo.top/images/20180911/reactor_3.png">
-<meta property="og:updated_time" content="2018-09-11T09:43:28.315Z">
+<meta property="og:updated_time" content="2018-09-11T09:46:00.142Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="深入学习Netty-认识Netty">
 <meta name="twitter:description" content="Netty是什么Netty是由JBOSS提供的一个Java开源网络应用框架。Netty提供异步的、事件驱动的网络应用程序框架和工具，用以快速开发高性能、高可靠性的网络服务器和客户端程序。">
@@ -461,7 +461,7 @@
 <h2 id="何为Reactor线程模型"><a href="#何为Reactor线程模型" class="headerlink" title="何为Reactor线程模型"></a>何为Reactor线程模型</h2><p>Reactor模式是事件驱动的，Wikipedia上说：“The reactor design pattern is an event handling pattern for handling service requests delivered concurrently by one or more inputs. The service handler then demultiplexes the incoming requests and dispatches them synchronously to associated request handlers.”。从这个描述中，我们知道Reactor模式首先是事件驱动的，有一个或多个并发输入源，有一个Service Handler，有多个Request Handlers；这个Service Handler会同步的将输入的请求（Event）多路复用的分发给相应的Request Handler。</p>
 <p><img src="/images/20180911/reactor.png" alt="Reactor线程模型"></p>
 <p>从结构上，这有点类似生产者消费者模式，即有一个或多个生产者将事件放入一个Queue中，而一个或多个消费者主动的从这个Queue中Poll事件来处理；而Reactor模式则并没有Queue来做缓冲，每当一个Event输入到Service Handler之后，该Service Handler会立刻的根据不同的Event类型将其分发给对应的Request Handler来处理。</p>
-<h2 id="Netty的Reactor线程模型"><a href="#Netty的Reactor线程模型" class="headerlink" title="Netty的Reactor线程模型"></a>Netty的Reactor线程模型</h2><p>Netty的Reactor模型主要由多路复用器(Acceptor)、事件分发器(Dispatcher)、事件处理器(Handler)三部分组成,Netty中典型的实现有三种：</p>
+<h2 id="Netty的Reactor线程模型"><a href="#Netty的Reactor线程模型" class="headerlink" title="Netty的Reactor线程模型"></a>Netty的Reactor线程模型</h2><p>Netty的Reactor模型主要由多路复用器(Acceptor)、事件分发器(Dispatcher)、事件处理器(Handler)三部分组成，Netty中典型的实现有三种：</p>
 <h3 id="1-单线程模型"><a href="#1-单线程模型" class="headerlink" title="1. 单线程模型"></a>1. 单线程模型</h3><p>单线程模型是最简单的Reactor模型，所有I/O操作都由一个线程完成，即多路分离套接字、Accept新连接和新连接数据处理都是在一个Reactor线程上完成的。</p>
 <p><img src="/images/20180911/reactor_1.png" alt="Reactor单线程模型"></p>
 <p>对于一些小容量应用场景，可以使用单线程模型。但是对于高负载、大并发的场景，由于是单线程，无法处理成百上千的连接，另外无法使用多核资源，实际中少使用。</p>
