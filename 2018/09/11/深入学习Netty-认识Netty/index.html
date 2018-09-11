@@ -90,7 +90,7 @@
 <meta property="og:description" content="Netty是什么Netty是基于Java NIO的、异步的、事件驱动的网络应用框架，使用Netty可以快速开发高性能、支持高并发的网络应用，例如基于私有协议栈的服务器和客户端。">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="http://www.mikewoo.top/images/20180911/reactor.png">
-<meta property="og:updated_time" content="2018-09-11T07:53:33.796Z">
+<meta property="og:updated_time" content="2018-09-11T07:54:53.860Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="深入学习Netty-认识Netty">
 <meta name="twitter:description" content="Netty是什么Netty是基于Java NIO的、异步的、事件驱动的网络应用框架，使用Netty可以快速开发高性能、支持高并发的网络应用，例如基于私有协议栈的服务器和客户端。">
@@ -447,7 +447,9 @@
       
 
       
-        <h1 id="Netty是什么"><a href="#Netty是什么" class="headerlink" title="Netty是什么"></a>Netty是什么</h1><p>Netty是基于Java NIO的、异步的、事件驱动的网络应用框架，使用Netty可以快速开发高性能、支持高并发的网络应用，例如基于私有协议栈的服务器和客户端。<br><a id="more"></a><br>Netty提供了一种新的方式来开发网络应用程序，这种新的方式使它很容易使用和具有很强的扩展性。Netty的内部实现是很复杂的，但是Netty提供了简单易用的API实现网络处理代码中解耦业务逻辑。</p>
+        <h1 id="Netty是什么"><a href="#Netty是什么" class="headerlink" title="Netty是什么"></a>Netty是什么</h1><p>Netty是基于Java NIO的、异步的、事件驱动的网络应用框架，使用Netty可以快速开发高性能、支持高并发的网络应用，例如基于私有协议栈的服务器和客户端。</p>
+<a id="more"></a>
+<p>Netty提供了一种新的方式来开发网络应用程序，这种新的方式使它很容易使用和具有很强的扩展性。Netty的内部实现是很复杂的，但是Netty提供了简单易用的API实现网络处理代码中解耦业务逻辑。</p>
 <p>Netty是完全基于NIO实现的，Netty的所有IO操作都是异步非阻塞的，通过Future-Listener机制，用户可以方便的主动获取或者通过通知机制获得IO操作结果。</p>
 <p>Netty是当前非常流行的NIO框架，它的健壮性、高性能、可定制性以及可扩展性在同类框架都是首屈一指的。业界很多著名的开源框架都是基于Netty构建，如主流的RPC通信框架Dubbo、消息中间件RocketMQ、分布式协调服务Zookeeper、Hadoop的RPC框架Avro等等。</p>
 <p>那么Netty的性能为什么会这么高呢？主要是因为其内部Reactor模型的实现。</p>
