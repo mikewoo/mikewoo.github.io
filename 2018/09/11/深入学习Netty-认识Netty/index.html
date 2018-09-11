@@ -90,7 +90,7 @@
 <meta property="og:description" content="Netty是什么Netty是基于Java NIO的、异步的、事件驱动的网络应用框架，使用Netty可以快速开发高性能、支持高并发的网络应用，例如基于私有协议栈的服务器和客户端。">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="http://www.mikewoo.top/images/20180911/reactor.png">
-<meta property="og:updated_time" content="2018-09-11T07:54:53.860Z">
+<meta property="og:updated_time" content="2018-09-11T08:04:16.275Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="深入学习Netty-认识Netty">
 <meta name="twitter:description" content="Netty是什么Netty是基于Java NIO的、异步的、事件驱动的网络应用框架，使用Netty可以快速开发高性能、支持高并发的网络应用，例如基于私有协议栈的服务器和客户端。">
@@ -410,7 +410,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  525 字
+                  570 字
                 </span>
               
 
@@ -458,6 +458,10 @@
 <h2 id="何为Reactor线程模型"><a href="#何为Reactor线程模型" class="headerlink" title="何为Reactor线程模型"></a>何为Reactor线程模型</h2><p>Reactor模式是事件驱动的，有一个或多个并发输入源，有一个Service Handler，有多个Request Handlers；这个Service Handler会同步的将输入的请求（Event）多路复用的分发给相应的Request Handler。</p>
 <p><img src="/images/20180911/reactor.png" alt="Reactor线程模型"></p>
 <p>从结构上，这有点类似生产者消费者模式，即有一个或多个生产者将事件放入一个Queue中，而一个或多个消费者主动的从这个Queue中Poll事件来处理；而Reactor模式则并没有Queue来做缓冲，每当一个Event输入到Service Handler之后，该Service Handler会立刻的根据不同的Event类型将其分发给对应的Request Handler来处理。</p>
+<h2 id="Netty的Reactor线程模型"><a href="#Netty的Reactor线程模型" class="headerlink" title="Netty的Reactor线程模型"></a>Netty的Reactor线程模型</h2><p>Netty的Reactor模型结构主要由多路复用器(Acceptor)、事件分发器(Dispatcher)、事件处理器(Handler)组成,总体上可以分为三种：</p>
+<ol>
+<li></li>
+</ol>
 
       
     </div>
@@ -757,7 +761,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Netty是什么"><span class="nav-number">1.</span> <span class="nav-text">Netty是什么</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Reactor模型"><span class="nav-number">2.</span> <span class="nav-text">Reactor模型</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#何为Reactor线程模型"><span class="nav-number">2.1.</span> <span class="nav-text">何为Reactor线程模型</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Netty是什么"><span class="nav-number">1.</span> <span class="nav-text">Netty是什么</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Reactor模型"><span class="nav-number">2.</span> <span class="nav-text">Reactor模型</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#何为Reactor线程模型"><span class="nav-number">2.1.</span> <span class="nav-text">何为Reactor线程模型</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Netty的Reactor线程模型"><span class="nav-number">2.2.</span> <span class="nav-text">Netty的Reactor线程模型</span></a></li></ol></li></ol></div>
             
 
           </div>
@@ -813,7 +817,7 @@
 
 <div class="theme-info">
   <div class="powered-by"></div>
-  <span class="post-count">博客全站共603字</span>
+  <span class="post-count">博客全站共648字</span>
 </div>
 
         
