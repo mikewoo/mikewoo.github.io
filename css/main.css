@@ -1990,7 +1990,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #9f3646;
+  background: #91c9ff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2017,7 +2017,7 @@ pre .javascript .function {
   text-overflow: ellipsis;
 }
 .sidebar-nav {
-  margin: 0 0 10px;
+  margin: 0 0 20px;
   padding-left: 0;
 }
 .sidebar-nav li {
