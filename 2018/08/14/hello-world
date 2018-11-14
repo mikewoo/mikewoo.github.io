@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="TCP/IP,Netty,Socket," />
+  <meta name="keywords" content="Hexo,github," />
 
 
 
@@ -81,18 +81,18 @@
 
 
 
-<meta name="description" content="在了解了Netty是什么以及它的基本组件之后，我们接下来看看Netty在实际工作中如何应用。本节主要关注基于Netty如何实现Socket服务器和客户端。">
-<meta name="keywords" content="TCP&#x2F;IP,Netty,Socket">
+<meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.">
+<meta name="keywords" content="Hexo,github">
 <meta property="og:type" content="article">
-<meta property="og:title" content="深入学习Netty-Socket服务器与客户端实现">
-<meta property="og:url" content="http://www.mikewoo.top/2018/11/14/深入学习Netty-Socket服务器与客户端实现/index.html">
+<meta property="og:title" content="Hello World">
+<meta property="og:url" content="http://www.mikewoo.top/2018/08/14/hello-world">
 <meta property="og:site_name" content="指尖上的律动">
-<meta property="og:description" content="在了解了Netty是什么以及它的基本组件之后，我们接下来看看Netty在实际工作中如何应用。本节主要关注基于Netty如何实现Socket服务器和客户端。">
+<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-11-14T07:53:30.089Z">
+<meta property="og:updated_time" content="2018-09-11T09:49:49.131Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="深入学习Netty-Socket服务器与客户端实现">
-<meta name="twitter:description" content="在了解了Netty是什么以及它的基本组件之后，我们接下来看看Netty在实际工作中如何应用。本节主要关注基于Netty如何实现Socket服务器和客户端。">
+<meta name="twitter:title" content="Hello World">
+<meta name="twitter:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.">
 
 
 
@@ -122,13 +122,13 @@
 
 
 
-  <link rel="canonical" href="http://www.mikewoo.top/2018/11/14/深入学习Netty-Socket服务器与客户端实现/"/>
+  <link rel="canonical" href="http://www.mikewoo.top/2018/08/14/hello-world"/>
 
 
 
 
 
-  <title>深入学习Netty-Socket服务器与客户端实现 | 指尖上的律动</title>
+  <title>Hello World | 指尖上的律动</title>
   
 
 
@@ -304,7 +304,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://www.mikewoo.top/2018/11/14/深入学习Netty-Socket服务器与客户端实现/">
+    <link itemprop="mainEntityOfPage" href="http://www.mikewoo.top/2018/08/14/hello-world">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="明月天涯">
@@ -321,7 +321,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">深入学习Netty-Socket服务器与客户端实现</h1>
+          <h1 class="post-title" itemprop="name headline">Hello World</h1>
         
 
         <div class="post-meta">
@@ -333,8 +333,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-11-14T13:27:09+08:00">
-                2018-11-14
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-08-14T10:46:25+08:00">
+                2018-08-14
               </time>
             
 
@@ -356,8 +356,8 @@
               
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/深入学习Netty/" itemprop="url" rel="index">
-                    <span itemprop="name">深入学习Netty</span>
+                  <a href="/categories/博客搭建/" itemprop="url" rel="index">
+                    <span itemprop="name">博客搭建</span>
                   </a>
                 </span>
 
@@ -374,8 +374,8 @@
                 <span class="post-meta-item-icon">
                   <i class="fa fa-comment-o"></i>
                 </span>
-                <a href="/2018/11/14/深入学习Netty-Socket服务器与客户端实现/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count valine-comment-count" data-xid="/2018/11/14/深入学习Netty-Socket服务器与客户端实现/" itemprop="commentCount"></span>
+                <a href="/2018/08/14/hello-world#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2018/08/14/hello-world" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -383,7 +383,7 @@
 
           
           
-             <span id="/2018/11/14/深入学习Netty-Socket服务器与客户端实现/" class="leancloud_visitors" data-flag-title="深入学习Netty-Socket服务器与客户端实现">
+             <span id="/2018/08/14/hello-world" class="leancloud_visitors" data-flag-title="Hello World">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -408,7 +408,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  907 字
+                  78 字
                 </span>
               
 
@@ -424,7 +424,7 @@
                   <span class="post-meta-item-text">阅读时长 &asymp;</span>
                 
                 <span title="阅读时长">
-                  4 分钟
+                  1 分钟
                 </span>
               
             </div>
@@ -445,23 +445,16 @@
       
 
       
-        <p>在了解了Netty是什么以及它的基本组件之后，我们接下来看看Netty在实际工作中如何应用。本节主要关注基于Netty如何实现Socket服务器和客户端。</p>
+        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
 <a id="more"></a>
-<h1 id="Netty在实际工作中的应用"><a href="#Netty在实际工作中的应用" class="headerlink" title="Netty在实际工作中的应用"></a>Netty在实际工作中的应用</h1><p>在互联网行业，随着网站规模的不断扩大，系统并发访问量也越来越高，传统基于Tomcat等Web容器的垂直架构已经无法满足需求，需要拆分应用进行服务化，以提高开发和维护效率。从组网情况看，垂直的架构拆分之后，系统采用分布式部署，各个节点之间需要远程服务调用，高性能的RPC框架必不可少，Netty作为异步高性能的通信框架，往往作为基础通信组件被这些RPC框架使用。典型的应用有：阿里分布式服务框架Dubbo底层就使用Netty进行节点间通信，Dubbo默认使用Netty作为基础通信组件，用于实现各进程节点之间的内部通信。</p>
-<p>在游戏游戏行业，无论是手游服务端、还是大型的网络游戏，Java 语言得到了越来越广泛的应用。Netty 作为高性能的基础通信组件，它本身提供了TCP/UDP和HTTP协议栈，非常方便定制和开发私有协议栈。账号登陆服务器、地图服务器之间可以方便的通过Netty进行高性能的通信。</p>
-<p>总的来说，Netty在实际工作中的应用大体可以分为以下三类：</p>
-<ol>
-<li>作为RPC框架的基础通信组件，实现RPC框架各节点之间的通信。这应该是Netty应用最多的一方面，实际底层就是基于Socket通信，来实现远程过程调用。</li>
-<li>通过对WebSocket的支持，实现基于WebSocket协议的长连接服务器。WebSocket是一种规范，是Html5规范的一部分，可以实现在单个TCP连接上进行全双工通讯，WebSocket协议使得客户端和服务器之间的数据交换变得更加简单，允许服务端主动向客户端推送数据。Netty对WebSocket细节进行了实现，通过这种方式，就可以实现服务端主动往客户端发送消息的功能。</li>
-<li>作为HTTP服务器。Netty支持HTTP协议，对于Netty 提供了codec编解码器支持，使得Netty客户端、服务端支持HTTP ，只需要添加相应的Http codc即可，十分简便。并支持SSL/TLS，可实现通过SSL/TLS进行安全传输。</li>
-</ol>
-<h1 id="Netty实现Socket客户端和服务器"><a href="#Netty实现Socket客户端和服务器" class="headerlink" title="Netty实现Socket客户端和服务器"></a>Netty实现Socket客户端和服务器</h1><p>本节主要介绍基于Netty如何实现Socket服务器和客户端，服务器示例代码如下。<br><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> io.netty.bootstrap.ServerBootstrap;</span><br><span class="line"><span class="keyword">import</span> io.netty.channel.ChannelFuture;</span><br><span class="line"><span class="keyword">import</span> io.netty.channel.EventLoopGroup;</span><br><span class="line"><span class="keyword">import</span> io.netty.channel.nio.NioEventLoopGroup;</span><br><span class="line"><span class="keyword">import</span> io.netty.channel.socket.nio.NioServerSocketChannel;</span><br><span class="line"><span class="keyword">import</span> io.netty.handler.logging.LogLevel;</span><br><span class="line"><span class="keyword">import</span> io.netty.handler.logging.LoggingHandler;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@author</span> Eric Gui</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@date</span> 2018/9/26</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">TestSocketServer</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        EventLoopGroup bossGroup = <span class="keyword">new</span> NioEventLoopGroup();</span><br><span class="line">        EventLoopGroup workerGroup = <span class="keyword">new</span> NioEventLoopGroup();</span><br><span class="line"></span><br><span class="line">        <span class="keyword">try</span> &#123;</span><br><span class="line">            ServerBootstrap serverBootstrap = <span class="keyword">new</span> ServerBootstrap();</span><br><span class="line">            serverBootstrap.group(bossGroup, workerGroup)</span><br><span class="line">                    .channel(NioServerSocketChannel.class)</span><br><span class="line">                    .handler(<span class="keyword">new</span> LoggingHandler(LogLevel.DEBUG))</span><br><span class="line">                    .childHandler(<span class="keyword">new</span> TestServerChannelInitializer());</span><br><span class="line">            ChannelFuture channelFuture = serverBootstrap.bind(<span class="number">8899</span>).sync();</span><br><span class="line">            channelFuture.channel().closeFuture().sync();</span><br><span class="line"></span><br><span class="line">        &#125; <span class="keyword">catch</span> (Exception e) &#123;</span><br><span class="line">            e.printStackTrace();</span><br><span class="line">        &#125; <span class="keyword">finally</span> &#123;</span><br><span class="line">            workerGroup.shutdownGracefully();</span><br><span class="line">            bossGroup.shutdownGracefully();</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
-<ol>
-<li>服务端首先创建两个EventLoopGroup，其中：<blockquote>
-<p>bossGroup：用于接收客户端的连接，连接建立后，bossGroup 就不会在对其进行处理，转而交由workerGroup 处理；<br>workerGroup：真正完成客户端连接上IO数据的处理。</p>
-</blockquote>
-</li>
-</ol>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
 
       
     </div>
@@ -488,8 +481,8 @@
   <script src="https://cdn.bootcss.com/jquery/2.0.0/jquery.min.js"></script>
   <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
   <p><span>文章作者:</span><a href="/" title="访问 明月天涯 的个人博客">明月天涯</a></p>
-  <p><span>原始链接:</span><a href="/2018/11/14/深入学习Netty-Socket服务器与客户端实现/%>" title="深入学习Netty-Socket服务器与客户端实现">http://www.mikewoo.top/2018/11/14/深入学习Netty-Socket服务器与客户端实现/</a>
-    <span class="copy-path"  title="点击复制文章链接"><i class="fa fa-clipboard" data-clipboard-text="http://www.mikewoo.top/2018/11/14/深入学习Netty-Socket服务器与客户端实现/"  aria-label="复制成功！"></i></span>
+  <p><span>原始链接:</span><a href="/2018/08/14/hello-world%>" title="Hello World">http://www.mikewoo.top/2018/08/14/hello-world</a>
+    <span class="copy-path"  title="点击复制文章链接"><i class="fa fa-clipboard" data-clipboard-text="http://www.mikewoo.top/2018/08/14/hello-world"  aria-label="复制成功！"></i></span>
   </p>
   <p><span>版权声明:</span><i class="fa fa-creative-commons"></i> 本博客所有文章除特别声明外，均采用 <a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" title="Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)">CC BY-NC-SA 4.0</a> 许可协议。转载请注明出处！</p>  
 </div>
@@ -544,16 +537,32 @@
     
 
     
+      <div>
+        <ul class="post-copyright">
+  <li class="post-copyright-author">
+    <strong>文章作者：</strong>
+    明月天涯
+  </li>
+  <li class="post-copyright-link">
+    <strong>本文链接：</strong>
+    <a href="http://www.mikewoo.top/2018/08/14/hello-world" title="Hello World">http://www.mikewoo.top/2018/08/14/hello-world</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>
+    本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="external nofollow" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
+
+      </div>
+    
 
     <footer class="post-footer">
       
         <div class="post-tags">
           
-            <a href="/tags/TCP-IP/" rel="tag"><i class="fa fa-tag"></i> TCP/IP</a>
+            <a href="/tags/Hexo/" rel="tag"><i class="fa fa-tag"></i> Hexo</a>
           
-            <a href="/tags/Netty/" rel="tag"><i class="fa fa-tag"></i> Netty</a>
-          
-            <a href="/tags/Socket/" rel="tag"><i class="fa fa-tag"></i> Socket</a>
+            <a href="/tags/github/" rel="tag"><i class="fa fa-tag"></i> github</a>
           
         </div>
       
@@ -566,15 +575,15 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2018/11/14/广播地址计算/" rel="next" title="广播地址计算">
-                <i class="fa fa-chevron-left"></i> 广播地址计算
-              </a>
-            
           </div>
 
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2018/09/11/深入学习Netty-认识Netty" rel="prev" title="深入学习Netty-认识Netty">
+                深入学习Netty-认识Netty <i class="fa fa-chevron-right"></i>
+              </a>
             
           </div>
         </div>
@@ -761,7 +770,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Netty在实际工作中的应用"><span class="nav-number">1.</span> <span class="nav-text">Netty在实际工作中的应用</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Netty实现Socket客户端和服务器"><span class="nav-number">2.</span> <span class="nav-text">Netty实现Socket客户端和服务器</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Quick-Start"><span class="nav-number">1.</span> <span class="nav-text">Quick Start</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Create-a-new-post"><span class="nav-number">1.1.</span> <span class="nav-text">Create a new post</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Run-server"><span class="nav-number">1.2.</span> <span class="nav-text">Run server</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Generate-static-files"><span class="nav-number">1.3.</span> <span class="nav-text">Generate static files</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Deploy-to-remote-sites"><span class="nav-number">1.4.</span> <span class="nav-text">Deploy to remote sites</span></a></li></ol></li></ol></div>
             
 
           </div>
@@ -1444,5 +1453,66 @@
   <!-- 页面点击小红心 -->
 <script type="text/javascript" src="/js/src/clicklove.js"></script>
 <script type="text/javascript" src="/js/src/dynamic_bg.js"></script>
+<style> #selectionCopyright {
+    position: absolute;
+    display: none;
+    background: rgba(244,67,54,.7);
+    color: #fff;
+    border-radius: 6px;
+    box-shadow: none;
+    border: none;
+    font-size: 14px;
+} #selectionCopyright a{
+    color:#fff;
+    border-color: #fff;
+} #selectionCopyright::before {
+    content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 6px 8px 6px 0;
+    border-color: transparent rgba(244,67,54,.7) transparent transparent;
+    position: absolute;
+    left: -8px;
+    top:50%;
+    transform:translateY(-50%);
+} </style>
+
+<script> 
+	window.onload = function() { 
+		function selectText() { 
+			if (document.selection) { //IE浏览器下 
+				return document.selection.createRange().text; //返回选中的文字 
+			} else { //非IE浏览器下 
+				return window.getSelection().toString(); //返回选中的文字 
+			} 
+		} 
+		var content = document.getElementsByTagName("body")[0]; 
+		var scTip = document.getElementById('selectionCopyright'); 
+		content.onmouseup = function(ev) { //设定一个onmouseup事件 
+			var ev = ev || window.event; 
+			var left = ev.clientX;//获取鼠标相对浏览器可视区域左上角水平距离距离 
+			var top = ev.clientY;//获取鼠标相对浏览器可视区域左上角垂直距离距离 
+			var xScroll = Math.max(document.body.scrollLeft, document.documentElement.scrollLeft);//获取文档水平滚动距离 
+			var yScroll = Math.max(document.body.scrollTop, document.documentElement.scrollTop);//获取文档垂直滚动距离 
+			if (selectText().length > 0) { 
+				setTimeout(function() { //设定一个定时器 
+					scTip.style.display = 'inline-block'; 
+					scTip.style.left = left + xScroll + 15 + 'px';//鼠标当前x值 
+					scTip.style.top = top + yScroll - 15 + 'px';//鼠标当前y值 
+				}, 100); 
+			} else { 
+				scTip.style.display = 'none'; 
+			} 
+		}; 
+		content.onclick = function(ev) { 
+			var ev = ev || window.event; 
+			ev.cancelBubble = true; 
+		}; 
+		document.onclick = function() { 
+			scTip.style.display = 'none'; 
+		}; 
+	}; 
+</script>
 </body>
 </html>
