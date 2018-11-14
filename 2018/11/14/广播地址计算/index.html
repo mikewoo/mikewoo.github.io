@@ -89,7 +89,7 @@
 <meta property="og:site_name" content="指尖上的律动">
 <meta property="og:description" content="学过计算机网络的同学都知道，IP地址是互联网上每个子网或每个主机在网络上的唯一身份标签，在设置电脑IP时，会碰到两个重要的参数，一个是IP地址，一个是子网掩码。IP地址大家很熟悉，子网掩码是什么呢，又有什么作用呢？除此之外还有广播地址，它又有什么作用呢？">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-11-14T03:20:47.062Z">
+<meta property="og:updated_time" content="2018-11-14T03:23:00.008Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="广播地址计算">
 <meta name="twitter:description" content="学过计算机网络的同学都知道，IP地址是互联网上每个子网或每个主机在网络上的唯一身份标签，在设置电脑IP时，会碰到两个重要的参数，一个是IP地址，一个是子网掩码。IP地址大家很熟悉，子网掩码是什么呢，又有什么作用呢？除此之外还有广播地址，它又有什么作用呢？">
@@ -455,8 +455,7 @@
 <h1 id="广播地址介绍"><a href="#广播地址介绍" class="headerlink" title="广播地址介绍"></a>广播地址介绍</h1><p>广播地址(Broadcast Address)是专门用于同时向网络中所有工作站进行发送的一个地址。在使用TCP/IP 协议的网络中，主机标识段host ID 为全1 的IP 地址为广播地址，广播的分组传送给host ID段所涉及的所有计算机。如192.168.1.255就是C类地址中的一个广播地址，你将信息发送到此地址，就是将信息发送给网络号为192.168.1的所有主机。</p>
 <hr>
 <h1 id="已知IP地址和子网掩码求广播地址"><a href="#已知IP地址和子网掩码求广播地址" class="headerlink" title="已知IP地址和子网掩码求广播地址"></a>已知IP地址和子网掩码求广播地址</h1><p>在实际工作中，已知IP地址和子网掩码，怎么求广播地址呢？以个人云主机内网为例，IP地址为172.31.172.142，子网掩码为255.255.240.0，则本网段广播地址是多少呢？</p>
-<hr>
-<h1 id="广播地址计算方法"><a href="#广播地址计算方法" class="headerlink" title="广播地址计算方法"></a>广播地址计算方法</h1><ol>
+<h3 id="广播地址计算方法"><a href="#广播地址计算方法" class="headerlink" title="广播地址计算方法"></a>广播地址计算方法</h3><ol>
 <li><p>把点分十进制的子网掩码地址换算成二进制<br><code>255.255.240.0   ==&gt;  1111 1111 . 1111 1111 . 1111 0000 . 0000 0000</code><br>发现子网掩码有20个连续1，所以前20位作为网络地址，后12位作为主机地址。<br>所以IP地址也可以表示为172.31.172.142/22，与IP地址和子网掩码分开表示方式等价。</p>
 </li>
 <li><p>把IP地址跟子网掩码取与（&amp;）得到网络地址</p>
@@ -763,7 +762,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#子网掩码介绍"><span class="nav-number">1.</span> <span class="nav-text">子网掩码介绍</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#广播地址介绍"><span class="nav-number">2.</span> <span class="nav-text">广播地址介绍</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#已知IP地址和子网掩码求广播地址"><span class="nav-number">3.</span> <span class="nav-text">已知IP地址和子网掩码求广播地址</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#广播地址计算方法"><span class="nav-number">4.</span> <span class="nav-text">广播地址计算方法</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#子网掩码介绍"><span class="nav-number">1.</span> <span class="nav-text">子网掩码介绍</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#广播地址介绍"><span class="nav-number">2.</span> <span class="nav-text">广播地址介绍</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#已知IP地址和子网掩码求广播地址"><span class="nav-number">3.</span> <span class="nav-text">已知IP地址和子网掩码求广播地址</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#广播地址计算方法"><span class="nav-number">3.0.1.</span> <span class="nav-text">广播地址计算方法</span></a></li></ol></li></ol></li></ol></div>
             
 
           </div>
