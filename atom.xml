@@ -106,9 +106,9 @@
       <category term="深入学习Netty" scheme="http://www.mikewoo.top/categories/%E6%B7%B1%E5%85%A5%E5%AD%A6%E4%B9%A0Netty/"/>
     
     
-      <category term="Netty" scheme="http://www.mikewoo.top/tags/Netty/"/>
-    
       <category term="NIO" scheme="http://www.mikewoo.top/tags/NIO/"/>
+    
+      <category term="Netty" scheme="http://www.mikewoo.top/tags/Netty/"/>
     
       <category term="Reactor" scheme="http://www.mikewoo.top/tags/Reactor/"/>
     

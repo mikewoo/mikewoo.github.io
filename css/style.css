@@ -1510,7 +1510,7 @@ a.article-title:hover {
 }
 .layout-wrap-inner.list-categories ul li a,
 .layout-wrap-inner.list-categories ul .category-list-child a {
-  color: #009688;
+  color: #38b7ea;
 }
 .layout-wrap-inner.list-categories ul ul,
 .layout-wrap-inner.list-categories ul ol {
@@ -1768,7 +1768,7 @@ a.article-title:hover {
   padding: 15px 5px;
 }
 .widget a {
-  color: #009688;
+  color: #38b7ea;
   text-decoration: none;
 }
 .widget a:hover {
@@ -1802,7 +1802,7 @@ a.article-title:hover {
 .widget ol li a,
 .widget ul .category-list-child a,
 .widget ol .category-list-child a {
-  color: #009688;
+  color: #38b7ea;
 }
 .widget ul ul,
 .widget ol ul,
