@@ -473,7 +473,7 @@ code {
   line-height: 40px !important;
 }
 .main-nav-link {
-  font-weight: 600;
+  font-weight: 500;
 }
 @media screen and (min-width: 1200px) {
   #sub-nav {
