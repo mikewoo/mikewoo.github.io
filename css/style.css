@@ -2206,3 +2206,17 @@ a.article-title:hover {
 .highlight .code .strong {
   font-weight: bold;
 }
+.label {
+  display: inline;
+  margin: 5px;
+  padding: 0.2em 0.6em 0.3em 0em;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25em;
+}
+.label-success {
+  background-color: #5cb85c;
+}
