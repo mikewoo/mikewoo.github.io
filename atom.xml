@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.mikewoo.top/"/>
-  <updated>2019-01-30T03:31:02.189Z</updated>
+  <updated>2019-04-03T01:07:54.462Z</updated>
   <id>http://www.mikewoo.top/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Go语言基础语法-变量与数据类型</title>
+    <link href="http://www.mikewoo.top/2019/04/03/Go%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95-%E5%8F%98%E9%87%8F%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/"/>
+    <id>http://www.mikewoo.top/2019/04/03/Go语言基础语法-变量与数据类型/</id>
+    <published>2019-04-03T00:48:05.000Z</published>
+    <updated>2019-04-03T01:07:54.462Z</updated>
+    
+    <content type="html"><![CDATA[<p>变量和数据类型是编程中最常见，也是最基础的基本概念。本章将介绍Go语言基础语法中有关变量和数据类型的想法概念和使用方法。</p><h2 id="变量的声明"><a href="#变量的声明" class="headerlink" title="变量的声明"></a>变量的声明</h2><p>变量（Variable）用于存储用户的数据，针对不同类型的数据都有不同的变量类型。计算机语言经过几十年的发展，基本已经形成一套相对固定的类型，这些类型在不同的编程语言中基本上是相通的。</p><p>Go语言作为C语言家族的新生派代表，在很多特性上和C语言非常相似。在C语言的定义方法和类型做了优化和调整，更加灵活易学。</p><p>Go语言的每个变量都有自己的类型，必须经过声明才能使用。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;变量和数据类型是编程中最常见，也是最基础的基本概念。本章将介绍Go语言基础语法中有关变量和数据类型的想法概念和使用方法。&lt;/p&gt;
+&lt;h2 id=&quot;变量的声明&quot;&gt;&lt;a href=&quot;#变量的声明&quot; class=&quot;headerlink&quot; title=&quot;变量的声明&quot;&gt;&lt;/a&gt;变量的
+      
+    
+    </summary>
+    
+      <category term="Go语言学习笔记" scheme="http://www.mikewoo.top/categories/Go%E8%AF%AD%E8%A8%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    
+      <category term="Golang" scheme="http://www.mikewoo.top/tags/Golang/"/>
+    
+  </entry>
   
   <entry>
     <title>深入学习Kafka-初始Kafka</title>
